@@ -46,8 +46,8 @@ with open(csv_file,encoding='latin-1', newline='') as csvfile:
             diction[row['OFNS_DESC']] = row['KY_CD']
 
 
-conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='kotarih',
-                       passwd='Newyork@13', db='kotarih_crime', autocommit=True)
+conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='WRITE YOURS',
+                       passwd='WRITE YOURS', db='WRITE YOURS_crime', autocommit=True)
 cur = conn.cursor(pymysql.cursors.DictCursor)
 
 # Dropping the table if it exists
@@ -102,8 +102,8 @@ with open(csv_file,encoding='latin-1', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     arrest_data = list(reader) 
 
-conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='kotarih',
-                       passwd='Newyork@13', db='kotarih_crime', autocommit=True)
+conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='WRITE YOURS',
+                       passwd='WRITE YOURS', db='WRITE YOURS_crime', autocommit=True)
 cur = conn.cursor(pymysql.cursors.DictCursor)
 
 # Dropping the table if it exists
@@ -209,8 +209,8 @@ with open(csv_file,encoding='latin-1', newline='') as csvfile:
     arrest_data = list(reader)
 
 
-conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='kotarih',
-                       passwd='Newyork@13', db='kotarih_crime', autocommit=True)
+conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='WRITE YOURS',
+                       passwd='WRITE YOURS', db='WRITE YOURS_crime', autocommit=True)
 cur = conn.cursor(pymysql.cursors.DictCursor)
 
 
@@ -267,8 +267,8 @@ with open(csv_file,encoding='latin-1', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     arrest_data = list(reader) 
 
-conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='kotarih',
-                       passwd='Newyork@13', db='kotarih_crime', autocommit=True)
+conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='WRITE YOURS',
+                       passwd='WRITE YOURS', db='WRITE YOURS_crime', autocommit=True)
 cur = conn.cursor(pymysql.cursors.DictCursor)
 
 # Dropping the table if it exists
